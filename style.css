@@ -1,0 +1,89 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', 'Roboto', sans-serif;
+  background-color: #f2f4f8;
+  color: #333;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.2rem;
+  color: #007BFF;
+  margin-bottom: 30px;
+}
+
+button#reload {
+  display: block;
+  margin: 0 auto 30px auto;
+  background-color: #007BFF;
+  color: white;
+  padding: 12px 24px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button#reload:hover {
+  background-color: #0056b3;
+}
+
+.user-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+}
+
+.user-card {
+  background-color: #f9fbff;
+  border: 1px solid #dce3ec;
+  padding: 20px;
+  width: 280px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.user-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.1);
+}
+
+.user-card h2 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  color: #1e88e5;
+}
+
+.user-card p {
+  font-size: 0.95rem;
+  color: #444;
+  margin-bottom: 6px;
+}
+
+.error {
+  color: #d93025;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1rem;
+}
